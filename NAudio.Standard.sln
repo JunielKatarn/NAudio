@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NAudio", "NAudio\NAudio.shproj", "{8B9B045E-066F-4AE8-9FF1-AA48D92E9511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NAudio.Standard", "NAudio.Standard\NAudio.Standard.csproj", "{D2D5E286-4364-4290-AF5B-BA104377BCB8}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		NAudio\NAudio.projitems*{8b9b045e-066f-4ae8-9ff1-aa48d92e9511}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2D5E286-4364-4290-AF5B-BA104377BCB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D5E286-4364-4290-AF5B-BA104377BCB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D5E286-4364-4290-AF5B-BA104377BCB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D5E286-4364-4290-AF5B-BA104377BCB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EBCB45E-7018-4376-B3D4-BAFF1544F016}
+	EndGlobalSection
+EndGlobal

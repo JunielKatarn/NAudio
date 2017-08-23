@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>8b9b045e-066f-4ae8-9ff1-aa48d92e9511</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>NAudio</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Dmo\AudioMediaSubtypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\AdpcmWaveFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\Gsm610WaveFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\WaveFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\WaveFormatEncoding.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\WaveFormatExtensible.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\WaveFormatExtraData.cs" />
+  </ItemGroup>
+</Project>
