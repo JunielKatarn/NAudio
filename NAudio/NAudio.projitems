@@ -9,6 +9,11 @@
     <Import_RootNamespace>NAudio</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Codecs\ALawDecoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Codecs\ALawEncoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Codecs\G722Codec.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Codecs\MuLawDecoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Codecs\MuLawEncoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dmo\AudioMediaSubtypes.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utils\BufferHelpers.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\MmeInterop\WaveInEventArgs.cs" />
