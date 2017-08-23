@@ -23,6 +23,12 @@
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\WaveFormatExtraData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\WmaWaveFormat.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveInputs\IWaveIn.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveOutputs\IWaveBuffer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveOutputs\IWavePlayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveOutputs\IWaveProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveOutputs\IWaveProviderFloat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveOutputs\PlaybackState.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveOutputs\StoppedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveOutputs\WaveBuffer.cs" />
   </ItemGroup>
 </Project>
