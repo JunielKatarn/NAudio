@@ -10,7 +10,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Dmo\AudioMediaSubtypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\BufferHelpers.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\MmeInterop\WaveInEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\SampleChunkConverters\ISampleChunkConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\SampleChunkConverters\Mono16SampleChunkConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\SampleChunkConverters\Mono24SampleChunkConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\SampleChunkConverters\Mono8SampleChunkConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\SampleChunkConverters\MonoFloatSampleChunkConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\SampleChunkConverters\Stereo16SampleChunkConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\SampleChunkConverters\Stereo24SampleChunkConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\SampleChunkConverters\Stereo8SampleChunkConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\SampleChunkConverters\StereoFloatSampleChunkConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\AdpcmWaveFormat.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\Gsm610WaveFormat.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\ImaAdpcmWaveFormat.cs" />
@@ -30,5 +40,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveOutputs\PlaybackState.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveOutputs\StoppedEventArgs.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveOutputs\WaveBuffer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveStreams\ISampleNotifier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveStreams\WaveStream.cs" />
   </ItemGroup>
 </Project>
