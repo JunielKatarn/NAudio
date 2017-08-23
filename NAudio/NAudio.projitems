@@ -49,6 +49,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Utils\BufferHelpers.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utils\ByteArrayExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utils\ByteEncoding.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\IEEE.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\IgnoreDisposeStream.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\MmeInterop\WaveInEventArgs.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\SampleChunkConverters\ISampleChunkConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\SampleChunkConverters\Mono16SampleChunkConverter.cs" />

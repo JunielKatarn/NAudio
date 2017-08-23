@@ -1,0 +1,69 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Acm\**" />
+    <Compile Remove="Aiff\**" />
+    <Compile Remove="DirectSound\**" />
+    <Compile Remove="Dmo\**" />
+    <Compile Remove="MediaFoundation\**" />
+    <Compile Remove="Midi\**" />
+    <Compile Remove="Mixer\**" />
+    <Compile Remove="Wasapi\**" />
+    <Compile Remove="WaveIn\**" />
+    <Compile Remove="WaveStreams\**" />
+    <EmbeddedResource Remove="Acm\**" />
+    <EmbeddedResource Remove="Aiff\**" />
+    <EmbeddedResource Remove="DirectSound\**" />
+    <EmbeddedResource Remove="Dmo\**" />
+    <EmbeddedResource Remove="MediaFoundation\**" />
+    <EmbeddedResource Remove="Midi\**" />
+    <EmbeddedResource Remove="Mixer\**" />
+    <EmbeddedResource Remove="Wasapi\**" />
+    <EmbeddedResource Remove="WaveIn\**" />
+    <EmbeddedResource Remove="WaveStreams\**" />
+    <None Remove="Acm\**" />
+    <None Remove="Aiff\**" />
+    <None Remove="DirectSound\**" />
+    <None Remove="Dmo\**" />
+    <None Remove="MediaFoundation\**" />
+    <None Remove="Midi\**" />
+    <None Remove="Mixer\**" />
+    <None Remove="Wasapi\**" />
+    <None Remove="WaveIn\**" />
+    <None Remove="WaveStreams\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Mp3\Mp3FileReaderTests.cs" />
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+    <Compile Remove="Utils\TestFileBuilder.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="NAudioTests.csproj.vspscc" />
+    <None Remove="packages.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.1.18" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.1.18" />
+    <PackageReference Include="NUnit" Version="3.7.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NAudio.Standard\NAudio.Standard.csproj" />
+  </ItemGroup>
+
+</Project>
