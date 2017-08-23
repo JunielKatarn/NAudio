@@ -10,6 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Dmo\AudioMediaSubtypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\MmeInterop\WaveInEventArgs.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\AdpcmWaveFormat.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\Gsm610WaveFormat.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\ImaAdpcmWaveFormat.cs" />
@@ -21,5 +22,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\WaveFormatExtensible.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\WaveFormatExtraData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\WmaWaveFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveInputs\IWaveIn.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveOutputs\StoppedEventArgs.cs" />
   </ItemGroup>
 </Project>
