@@ -12,9 +12,14 @@
     <Compile Include="$(MSBuildThisFileDirectory)Dmo\AudioMediaSubtypes.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\AdpcmWaveFormat.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\Gsm610WaveFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\ImaAdpcmWaveFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\Mp3WaveFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\OggWaveFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\TrueSpeechWaveFormat.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\WaveFormat.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\WaveFormatEncoding.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\WaveFormatExtensible.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\WaveFormatExtraData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wave\WaveFormats\WmaWaveFormat.cs" />
   </ItemGroup>
 </Project>
