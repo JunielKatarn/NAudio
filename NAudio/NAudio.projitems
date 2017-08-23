@@ -15,7 +15,15 @@
     <Compile Include="$(MSBuildThisFileDirectory)Codecs\MuLawDecoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Codecs\MuLawEncoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dmo\AudioMediaSubtypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FileFormats\Mp3\ChannelMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FileFormats\Mp3\Id3v2Tag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FileFormats\Mp3\IMp3FrameDecompressor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FileFormats\Mp3\Mp3Frame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FileFormats\Mp3\MpegLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FileFormats\Mp3\MpegVersion.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FileFormats\Mp3\XingHeader.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utils\BufferHelpers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\ByteArrayExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\MmeInterop\WaveInEventArgs.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\SampleChunkConverters\ISampleChunkConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Wave\SampleChunkConverters\Mono16SampleChunkConverter.cs" />
