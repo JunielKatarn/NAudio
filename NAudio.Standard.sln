@@ -7,6 +7,14 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NAudio", "NAudio\NAudio.shp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NAudio.Standard", "NAudio.Standard\NAudio.Standard.csproj", "{D2D5E286-4364-4290-AF5B-BA104377BCB8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE677A48-7998-4510-A5F9-A4A4CAA387FE}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		NAudio.nuspec = NAudio.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		NAudio\NAudio.projitems*{8b9b045e-066f-4ae8-9ff1-aa48d92e9511}*SharedItemsImports = 13
